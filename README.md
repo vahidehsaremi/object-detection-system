@@ -17,24 +17,18 @@ A Python computer vision project that detects faces in an image using OpenCV's p
 ## Installation
 
 Install the required dependency:
-
-    pip install -r requirements.txt
-
-## Usage
-
+```bash
+pip install -r requirements.txt
+Usage
 Run face detection on an image:
-
-    python main.py --image path/to/image.jpg
-
-The processed image will be saved as `output.jpg` in the project root.
-
-## Note
-
+bash
+python main.py --image path/to/image.jpg
+The processed image will be saved as output.jpg in the project root.
+Note
 This application detects faces using a standard pre-trained Haar cascade. It does not include a custom-trained model or detect general categories of objects.
-
-## Project Structure
-
-    object-detection-system/
-    ├── README.md
-    ├── requirements.txt
-    └── main.py
+Project Structure
+text
+object-detection-system/
+├── README.md
+├── requirements.txt
+└── main.py
