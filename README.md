@@ -1,15 +1,40 @@
-# Object Detection SystemA Python computer vision project that detects faces in an image using OpenCV's pre-trained Haar cascade classifier. Built as part of VAYDA SYSTEM infrastructure.
+# Object Detection System
 
-## Features- Detects faces in a still image- Draws a bounding rectangle around each detected face- Saves the output image as `output.jpg`
-- Uses OpenCV's built-in Haar cascade classifier## Requirements- Python3.10 or3.11- OpenCV (`opencv-python`)
+A Python computer vision project that detects faces in an image using OpenCV's pre-trained Haar cascade classifier. Built as part of VAYDA SYSTEM infrastructure.
 
-## InstallationInstall the required dependency:
+## Features
 
- pip install -r requirements.txt## UsageRun face detection on an image:
+- Detects faces in a still image
+- Draws a bounding rectangle around each detected face
+- Saves the output image as `output.jpg`
+- Uses OpenCV's built-in Haar cascade classifier
 
- python main.py --image path/to/image.jpgThe processed image will be saved as `output.jpg` in the project root.
+## Requirements
 
-## NoteThis application detects faces using a standard pre-trained Haar cascade. It does not include a custom-trained model or detect general categories of objects.
+- Python 3.10 or 3.11
+- OpenCV (`opencv-python`)
 
-## Project Structure object-detection-system/
- ├── README.md ├── requirements.txt └── main.py
+## Installation
+
+Install the required dependency:
+
+    pip install -r requirements.txt
+
+## Usage
+
+Run face detection on an image:
+
+    python main.py --image path/to/image.jpg
+
+The processed image will be saved as `output.jpg` in the project root.
+
+## Note
+
+This application detects faces using a standard pre-trained Haar cascade. It does not include a custom-trained model or detect general categories of objects.
+
+## Project Structure
+
+    object-detection-system/
+    ├── README.md
+    ├── requirements.txt
+    └── main.py
